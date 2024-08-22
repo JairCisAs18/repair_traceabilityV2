@@ -1,0 +1,169 @@
+th, td{
+    font-family: "Gill Sans", sans-serif;
+}
+
+section{
+    width: 80%;
+    background-color: lightgrey;
+    margin: 15px auto 15px auto;
+    border-radius: 15px;
+    padding: 0 0 10px 0;
+}
+
+#content-header{
+    width: 80%;
+    height:50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#openModalBtn{
+    border-radius: 10px;
+    width: 17%;
+    height: 50%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#openModalBtn:hover{
+    color: black;
+}
+
+table{
+    padding: 0;
+    width: 90%;
+    margin: 10px auto 0 auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    vertical-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+th:first-child, td:first-child{
+    border-left: 1px solid black;
+}
+
+th:last-child, td:last-child{
+    border-right: 1px solid black;
+}
+
+td{
+    text-align: center;
+    vertical-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 25px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#modal-header{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid grey;
+    margin-bottom: 15px;
+}
+
+.close {
+    color: gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-section{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-section > label{
+    font-size: 18px;
+}
+
+.input-section > select{
+    width: 60%;
+    height: 40%;
+    font-size: 16px;
+}
+
+.input-section > input{
+    border-radius: 5px;
+    height: 40%;
+    width: 70%;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(173, 243, 164);
+    color: black;
+}
